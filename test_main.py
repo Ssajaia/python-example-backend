@@ -14,7 +14,7 @@ def client():
 @pytest.mark.parametrize(
     ("path", "expected"),
     [
-        ("/", "Welcome to the Flask API!"),
+        ("/", "welcome to the flask API!"),
         ("/hello", "Hello, World!"),
         ("/status", "OK"),
         ("/health", "Healthy"),
