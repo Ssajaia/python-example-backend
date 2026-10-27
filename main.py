@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.get("/")
 def home():
-    return Response("welcome to the Flask API!", mimetype="text/plain")
+    return Response("welcome to the flask API!", mimetype="text/plain")
 
 
 @app.get("/hello")
